@@ -1,5 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Menu from './Menu'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,8 +16,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="fr">
+    <body className={inter.className}>
+    <header className="App-header">
+    <Image width={300} height={300} alt='Kanté construction Logo' src="/KanteConstructionLogo.png"/>
+    <Menu/>
+    </header>
+    {children}
+    <footer>
+    
+    </footer>
+    </body>
     </html>
-  )
-}
+    )
+  }
