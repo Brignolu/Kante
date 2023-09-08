@@ -54,7 +54,7 @@ export default function Home() {
 
 
     <div className="flex border rounded border-gray-300 flex-col w-1/4 items-left">
-    <span className="text-gray-700 text-lg">Horaires d'ouverture :</span>
+    <span className="text-gray-700 text-lg">Horaires d&apos ouverture :</span>
     <ul className="flex flex-col">
     <li className="px-2 py-1 text-gray-700">Lundi - Vendredi : 9h - 18h</li>
     <li className="px-2 py-1 text-gray-700">Samedi : 9h - 12h</li>
